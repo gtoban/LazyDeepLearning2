@@ -1,3 +1,12 @@
 Multiclass logistic regression on MNIST
 
 https://kaggle.com/c/digit-recognizer	
+
+Ways to choose sample (sgd.py)
+full: all samples
+stochastic: 1 random sample
+batch: batched samples (optimal)
+
+Update Weights:
+Momentum and nesterov momentum: (mlp.py and momentum.py)
+updating weights with additional momentum term.

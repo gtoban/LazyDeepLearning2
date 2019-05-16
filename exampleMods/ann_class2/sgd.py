@@ -42,7 +42,7 @@ def main():
     lr = 0.0001
     reg = 0.01
     t0 = datetime.now()
-    for i in range(50):
+    for i in range(200): #originially 50
         p_y = forward(Xtrain, W, b)
 
         W += lr*(gradW(Ytrain_ind, p_y, Xtrain) - reg*W)
@@ -70,6 +70,7 @@ def main():
     reg = 0.01
 
     t0 = datetime.now()
+    # originally 50
     for i in range(50): # takes very long since we're computing cost for 41k samples
         tmpX, tmpY = shuffle(Xtrain, Ytrain_ind)
         for n in range(min(N, 500)): # shortcut so it won't take so long...
