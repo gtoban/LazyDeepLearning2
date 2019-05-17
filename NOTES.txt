@@ -18,3 +18,5 @@ rmsproptest.py (test initial cache for rms method)
 Adam Optimizer (kind of RMSprop with momentum):
 Adam (adaptive moment optimizer)
 Bias Correction (biased towards zero at beginning)
+
+
