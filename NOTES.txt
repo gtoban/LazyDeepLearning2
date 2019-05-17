@@ -10,3 +10,11 @@ batch: batched samples (optimal)
 Update Weights:
 Momentum and nesterov momentum: (mlp.py and momentum.py)
 updating weights with additional momentum term.
+
+variable and adaptable learning rates:
+RMSprop (Root mean square)
+rmsproptest.py (test initial cache for rms method)
+
+Adam Optimizer (kind of RMSprop with momentum):
+Adam (adaptive moment optimizer)
+Bias Correction (biased towards zero at beginning)
